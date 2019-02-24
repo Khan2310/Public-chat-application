@@ -1,0 +1,156 @@
+.chatbox-head-container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  border-radius: 2px;
+  /* border: 3px solid red; */
+  width: 40%;
+  height: auto;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.chat-container {
+  border: 1px solid black;
+  width: 100%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.menu-content {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0px;
+  background-color: #454444;
+  font-family: 'Roboto Mono', monospace;
+}
+.menu-content h4,
+h6 {
+  margin: auto;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.message-container {
+  width: auto;
+  height: 600px;
+  overflow: auto;
+  flex-wrap: wrap;
+  background-color: #1c1f1f;
+  font-family: 'Roboto Mono', monospace;
+}
+.message-content {
+  display: flex;
+  margin-left: 25px;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: flex-start;
+  font-family: 'Roboto Mono', monospace;
+  /* flex-wrap: wrap; */
+}
+.message-content .message-text-holder {
+  max-width: 70%;
+  word-wrap: break-word;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.message-text-holder {
+  background-color: #ECECEC;
+  border-radius: 10px;
+  line-height: 35px;
+  margin: 0px;
+  font-size: 2em;
+  padding: 10px 25px;
+  color: #CDCDCD;
+  font-family: Monospace;
+  font-family: 'Roboto Mono', monospace;
+}
+.message-text{
+  margin: auto;
+  color:black;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.message-time-holder{
+  display: flex;
+  flex-direction: row;
+  margin: auto 10px;
+  justify-content: flex-start;
+
+}
+
+.message-time{
+  color: #1c1f1f;
+  background-color: #1c1f1f;
+}
+.message-content:hover .message-time{
+  background-color: #576574;
+  border-radius: 15px;
+  line-height: 15px;
+  padding: 5px 15px;
+  color: white;
+  font-family: Monospace;
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+  background-color: #363834;
+  font-family: 'Roboto Mono', monospace;
+}
+.input-box {
+  display: flex;
+  margin-left: 25px;
+  padding: 2px;
+  flex: 4;
+  word-wrap: break-word;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.input-text-area {
+  border: none;
+  font-size: 1em;
+  background-color: #F8F8F8;
+  color: black;
+  margin-left: 5px;
+  padding: 5px 25px;
+  width: 100%;
+  height: 35px;
+  font-family: 'Roboto Mono', monospace;
+}
+.send-button-box {
+  margin:9px;
+  border-radius: 10px;
+  flex: 1;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.style-button {
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #1B9AAA;
+  color: white;
+  width: 100%;
+  height: 46px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+}
+
+.style-button:hover {
+  background-color: #6A97A6;
+}
+.dotRed {
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+.loginMsg{
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  color: black;
+  margin-top: 20px;
+}
